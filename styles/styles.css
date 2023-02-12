@@ -343,6 +343,27 @@ a {
   margin-top: 8px;
 }
 
+.social-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 8px;
+}
+.social-list-item {
+}
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--logo-web-color);
+}
+.social-list-icon {
+  width: 16px;
+  height: 16px;
+}
+
 /* FOOTER */
 
 .footer {
