@@ -249,6 +249,16 @@ a {
   width: 264px;
 }
 
+.feature-icon-box {
+  background-color: #f4f4fd;
+}
+
+.feature-icon {
+  width: 64px;
+  height: 64px;
+  margin: 24px 100px;
+}
+
 .main-strenth-title {
   font-weight: 500;
   font-size: 20px;
@@ -256,6 +266,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--background-color);
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .main-strenth-text {
@@ -359,6 +370,11 @@ a {
   border-radius: 50%;
   background-color: var(--logo-web-color);
 }
+
+.social-list-link:hover {
+  background-color: var(--btn-accent-color);
+}
+
 .social-list-icon {
   width: 16px;
   height: 16px;
