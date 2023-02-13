@@ -153,6 +153,17 @@ a {
   color: var(--btn-accent-color);
 }
 
+.current::after {
+  display: block;
+  content: '';
+  width: 66px;
+  height: 4px;
+  left: 0px;
+  top: 48px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
@@ -380,15 +391,61 @@ a {
   height: 16px;
 }
 
+/* CUSTOMERS */
+
+.customers {
+  margin-top: 130px;
+  margin-bottom: 120px;
+}
+
+.customers-title {
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  padding-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+
+.customers-item {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+}
+
+.customers-item:hover,
+.customers-item:focus {
+  border: 1px solid #404bbf;
+}
+
+.customers-icon {
+  width: 104px;
+  height: 56px;
+  margin: 16px 32px;
+  fill: #8e8f99;
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+  fill: #404bbf;
+}
+
 /* FOOTER */
 
 .footer {
   background-color: var(--background-color);
   padding: 100px 0;
-  /* height: 310px;
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto; */
+}
+
+.divide {
+  display: flex;
 }
 
 .footer-slogan {
@@ -410,6 +467,44 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--team-section-color);
+}
+
+.divide-block-media {
+  margin-left: 120px;
+}
+
+.social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.social-list-footer {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.social-list-footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-list-footer-link:hover,
+.social-list-footer-link:focus {
+  background-color: #31d0aa;
+}
+
+.social-list-footer-icon {
+  width: 24px;
+  height: 24px;
 }
 
 /* PORTFOLIO */
